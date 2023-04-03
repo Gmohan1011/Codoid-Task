@@ -1,0 +1,83 @@
+Senario: To check mobile number component is accepting valid number or not
+
+Application : Watsapp
+Defect Id   : 001
+Build No    : B01
+Test Case No:Wa-01
+Summary     : Mobile number text filed not accepting valid number.
+Status      : New/open
+Severity    :Blocker
+Priority    :High
+Test Environment :QA
+Module      : login
+Reported By : Test Engineer(mohan)
+Assginee    : Concern Developer
+Discription :
+  pre conditions
+         System should be connected with internet.
+
+   Steps to Reproduce:
+          1.open the browser(chrome).
+          2.launch the url(watsapp url).
+          3.enter the valid 10 digit mobile number into mobile number text field.
+          4.click on Enter button.
+  Test Data:
+        mob no:1234567898
+  Expected Result:
+         login should be happen and redirect to the whatsapp chat/home page.
+  Actual Result:
+         login does not happen instead of it should 
+         showing enter 9 digit valid mobile number Error message.
+  
+   Attachement: Screenshot should be provided(proof).
+-----------------------------------------------------------------------------------------
+
+ write a testcases for booking tickets in redbus:
+
+  verify that redbus application is fully loaded or not.
+  verify that redbus application is showing From and To location text fields or not.
+  verify that we able to enter from and to location into the text fields or not.
+  verify that after enter valid location and click on search buses it will show available buses or not.
+  verify that when click on date field to select date calander popup is open or not.
+  verify that Entering from  location text fields it should display recent searches or not.
+  verify that by enter From  location it will showing list of popular boarding poin or not.
+  verify that by enter From location it should show popular cities or not.
+  verify that while enter To location it will display popular destination or not.
+  verify that while enter To location it should show nearby cities from you boarding point or not.
+  verify that after clicking search busses button it will ask select where you want to board or not.
+  verify that we able to select the bus or not.
+  verify that after selecting the bus it should show available seats or not.
+  verify that unbooked seats should be in green color outline or not.
+  verify that booked seats should be in gray color or not.
+  verify that female seats should be in pink color or not.
+  verify that male passenger can able to book both male and female seats or not.
+  verify that seat type should be shown or not.
+  verify that we can able to book multiple seats or not.
+  verify that when select seat price should be added and displa or not.
+  verify that after selectin seats ans boarding points it should redirect to the passenger information page or not.
+  verify that in passenger details page is showing error if any details is not filled.
+  verify that after clicking proceed button it should redirect to the payment page or not.
+  verify that its showing correct amount for the select seats or not.
+  verify that we able to select upi payment mode or not.
+  verify that while pay it should show all the upi app or not.
+  verify that once payed it should send message to given mailid or not.
+  verify that it should dispaly sucess message like your seats booked after payment done.
+  verify that if payment not debited it should show error message.
+  verify that if paymet is debited but seats are not booked then refund should be happen whith some time.
+  verify that by enter invalid boarding location it should show error message or not.
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
